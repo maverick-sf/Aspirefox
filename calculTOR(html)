@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="khud.css">
+</head>
+
+<body>
+    <section>
+        <div class="container">
+            <div class="calculator">
+                <div class="display">
+                    <div class="his">0</div>
+                    <div class="current">0</div>
+                    <div class="temp">0</div>
+                </div>
+                <div class="buttons">
+                    <div class="button clear">C</div>
+                    <!-- <div class="button last-clear">CE</div> -->
+                    <div class="button backspace">back</div>
+                    <div class="button operation">%</div>
+                    <div class="button operation">/</div>
+                    <div class="button number">7</div>
+                    <div class="button number">8</div>
+                    <div class="button number">9</div>
+                    <div class="button operation">*</div>
+                    <div class="button number">4</div>
+                    <div class="button number">5</div>
+                    <div class="button number">6</div>
+                    <div class="button operation">-</div>
+                    <div class="button number">1</div>
+                    <div class="button number">2</div>
+                    <div class="button number">3</div>
+                    <div class="button operation">+</div>
+                    <div class="button number zero">0</div>
+                    <div class="button number dot">.</div>
+                    <div class="button equal">=</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="khud.js"></script>
+</body>
+
+</html>
