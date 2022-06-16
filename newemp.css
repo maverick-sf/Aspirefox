@@ -1,0 +1,37 @@
+table
+/* th,
+td,
+tr  */
+
+{
+    border: black solid 1px;
+    width: 1000px;
+    text-align: center;
+}
+
+table td,
+table th {
+    border: solid 1px black;
+    width: 200px;
+}
+
+table td:hover {
+    background-color: coral;
+}
+
+table tr:hover {
+    background-color: coral;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.fas {
+    margin: 0 10px;
+}
+
+.empDetailIdHeader,
+.empDetailId {
+    display: none;
+}

@@ -1,0 +1,71 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="newemp.css" />
+
+</head>
+
+<body>
+    <div class="main-container">
+        <h2>Employee Details</h2>
+        <button id="addNewEmployee">+ Add New Employee</button>
+        <div class="table-container-header">
+            <table>
+                <tr>
+                    <th>Employee ID</th>
+                    <th>Name</th>
+                    <th>Designation</th>
+                    <th>Salary</th>
+                    <th>Action</th>
+                    <th class="empDetailIdHeader">Local Storage ID</th>
+                </tr>
+            </table>
+        </div>
+        <div class="table-container-content">
+            <table id="employeeTable">
+
+            </table>
+        </div>
+    </div>
+
+    <!-- Modal Code -->
+    <div id="#modal-container">
+        <dialog id="favDialog">
+            <h2>Enter Employee Details</h2>
+            <form id="modal-form" method="dialog">
+                <section>
+                    <p>
+                        <label for="employeeId">Employee ID: </label
+              ><input type="text" id="employeeId" />
+            </p>
+            <p>
+              <label for="employeeName">Name: </label
+              ><input type="text" id="employeeName" />
+            </p>
+            <p>
+              <label for="designation">Designation: </label
+              ><input type="text" id="designation" />
+            </p>
+            <p>
+              <label for="salary">Salary: </label
+              ><input type="text" id="salary" />
+            </p>
+          </section>
+          <menu>
+            <button id="cancelModal" type="reset">Cancel</button>
+            <button type="submit" id="submitModal">SUBMIT</button>
+          </menu>
+        </form>
+      </dialog>
+    </div>
+
+    <script src="newemp.js"></script>
+  </body>
+</html>

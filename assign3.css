@@ -1,0 +1,143 @@
+        #emptable {
+            border-collapse: collapse;
+            width: 100%;
+            margin: auto;
+        }
+        
+        th {
+            background-color: rgb(118, 71, 71);
+            color: #fff;
+            padding: fixed;
+            padding: 10px;
+        }
+        
+        th,
+        td {
+            text-align: center !important;
+            padding: 10px;
+            padding: fixed;
+            border: 1px solid black !important;
+            border-collapse: collapse;
+            /* table-layout: fixed; */
+        }
+        
+        tr:hover {
+            background-color: rgb(214, 147, 147);
+            color: white;
+        }
+        
+        tr:nth-child(even) {
+            background-color: lightgrey;
+            /* border: 1px solid black; */
+        }
+        /* tr:nth-child(odd) {
+    border: 1px solid black;
+} */
+        
+        tr:nth-child(even):hover {
+            background-color: rgb(214, 147, 147);
+            color: white;
+        }
+        
+        #btn1 {
+            border: none;
+            background-color: gray;
+            color: white;
+            border-radius: 10px;
+            padding-left: 12px;
+            padding-right: 12px;
+        }
+        
+        #btn1:hover {
+            background-color: rgb(192, 192, 30);
+            color: white;
+        }
+        
+        #btn2 {
+            border: none;
+            background-color: red;
+            color: white;
+            border-radius: 10px;
+        }
+        
+        #btn2:hover {
+            background-color: rgb(181, 11, 11);
+            color: white;
+        }
+        
+        .heading {
+            display: flex;
+            justify-content: center !important;
+        }
+        
+        #emp-table {
+            /* display: flex; */
+            justify-content: center !important;
+            margin-left: 15px;
+        }
+        
+        #adding {
+            padding-left: 45%;
+            padding-right: 45%;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            font-size: 24px;
+            font-weight: bold;
+            margin-left: 100%;
+            text-align: center;
+            /* bottom: 0%;
+            position: fixed; */
+        }
+        
+        #myInput {
+            background-image: url('searchicon.png');
+            background-position: 10px 10px;
+            background-repeat: no-repeat;
+            width: 50%;
+            display: flex;
+            padding: 12px 20px 12px 40px;
+            border: 1px solid #ddd;
+            margin-bottom: 12px;
+            margin-left: 20px;
+        }
+        /* 
+let editclass=document.getElementsByClassName('editclass');
+// pure edit wale coumn k buttons ki class                                         
+for (let i of editclass) {
+    i.addEventListener("click", function() {
+        console.log(this.parentElement.parentElement.firstChild.innerText)
+    }
+    )
+}
+
+
+}
+//delete
+// function removeData() {
+//     let removeRow = document.getElementsByClassName('removeRow');
+//     for (let i of removeRow) {
+//         i.addEventListener("click", function() {
+//             if (!i.classList.contains("removeRow")) {
+//                 return;
+//             }
+//             // console.log(i.target);
+//             const btn = i;
+//             btn.closest("tr").remove();
+//         });
+//     }
+// }
+// function removeData() {
+//     let employees = [];
+//     employees = !!localStorage.getItem("hi") ? JSON.parse(localStorage.getItem("hi")) : [];
+//     let removeRow = document.getElementsByClassName('removeRow');
+//     for (let i of removeRow) {
+//         i.addEventListener("click", function() {
+//             if (!i.classList.contains("removeRow")) {
+//                 return;
+//             }
+//             // console.log(i.target);
+//             const btn = i;
+//             btn.closest("tr").remove();
+//         });
+//     }
+// } */
