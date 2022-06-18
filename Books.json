@@ -1,0 +1,103 @@
+ [{
+         "BookID": 1,
+         "Name": "Harry Potter",
+         "ImageUrl": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ-wNr_rVKT8dZpgIK7G1DC9wUxNzwscowfs1pEkklwbUZZH6g0",
+         "Author": "J.K Rowling",
+         "HourlyPrice": "Rs 10",
+         "Ratings": 4.6,
+         "Genre": "Fantasy",
+         "PublishedYear": 1998,
+         "QuantityAvailable": 5
+     }, {
+         "BookID": 2,
+         "Name": "Bird Box",
+         "ImageUrl": "https://upload.wikimedia.org/wikipedia/en/b/b9/Bird_Box_2014_book_cover.jpg?20171122062219",
+         "Author": "Josh Malerman",
+         "HourlyPrice": "Rs 12",
+         "Ratings": 4.2,
+         "Genre": "Horror",
+         "PublishedYear": 2014,
+         "QuantityAvailable": 7
+     }, {
+         "BookID": 3,
+         "Name": "Harry Potter",
+         "ImageUrl": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ-wNr_rVKT8dZpgIK7G1DC9wUxNzwscowfs1pEkklwbUZZH6g0",
+         "Author": "J.K Rowling",
+         "HourlyPrice": "Rs 10",
+         "Ratings": 4.6,
+         "Genre": "Fantasy",
+         "PublishedYear": 1998,
+         "QuantityAvailable": 5
+     }, {
+         "BookID": 4,
+         "Name": "Harry Potter",
+         "ImageUrl": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ-wNr_rVKT8dZpgIK7G1DC9wUxNzwscowfs1pEkklwbUZZH6g0",
+         "Author": "J.K Rowling",
+         "HourlyPrice": "Rs 10",
+         "Ratings": 4.6,
+         "Genre": "Fantasy",
+         "PublishedYear": 1998,
+         "QuantityAvailable": 5
+     }, {
+         "BookID": 5,
+         "Name": "Harry Potter",
+         "ImageUrl": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ-wNr_rVKT8dZpgIK7G1DC9wUxNzwscowfs1pEkklwbUZZH6g0",
+         "Author": "J.K Rowling",
+         "HourlyPrice": "Rs 10",
+         "Ratings": 4.6,
+         "Genre": "Fantasy",
+         "PublishedYear": 1998,
+         "QuantityAvailable": 5
+     }, {
+         "BookID": 6,
+         "Name": "Harry Potter",
+         "ImageUrl": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ-wNr_rVKT8dZpgIK7G1DC9wUxNzwscowfs1pEkklwbUZZH6g0",
+         "Author": "J.K Rowling",
+         "HourlyPrice": "Rs 10",
+         "Ratings": 4.6,
+         "Genre": "Fantasy",
+         "PublishedYear": 1998,
+         "QuantityAvailable": 5
+     }, {
+         "BookID": 7,
+         "Name": "Harry Potter",
+         "ImageUrl": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ-wNr_rVKT8dZpgIK7G1DC9wUxNzwscowfs1pEkklwbUZZH6g0",
+         "Author": "J.K Rowling",
+         "HourlyPrice": "Rs 10",
+         "Ratings": 4.6,
+         "Genre": "Fantasy",
+         "PublishedYear": 1998,
+         "QuantityAvailable": 5
+     }, {
+         "BookID": 8,
+         "Name": "Harry Potter",
+         "ImageUrl": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ-wNr_rVKT8dZpgIK7G1DC9wUxNzwscowfs1pEkklwbUZZH6g0",
+         "Author": "J.K Rowling",
+         "HourlyPrice": "Rs 10",
+         "Ratings": 4.6,
+         "Genre": "Fantasy",
+         "PublishedYear": 1998,
+         "QuantityAvailable": 5
+     }, {
+         "BookID": 9,
+         "Name": "Harry Potter",
+         "ImageUrl": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ-wNr_rVKT8dZpgIK7G1DC9wUxNzwscowfs1pEkklwbUZZH6g0",
+         "Author": "J.K Rowling",
+         "HourlyPrice": "Rs 10",
+         "Ratings": 4.6,
+         "Genre": "Fantasy",
+         "PublishedYear": 1998,
+         "QuantityAvailable": 5
+     }, {
+         "BookID": 10,
+         "Name": "Harry Potter",
+         "ImageUrl": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ-wNr_rVKT8dZpgIK7G1DC9wUxNzwscowfs1pEkklwbUZZH6g0",
+         "Author": "J.K Rowling",
+         "HourlyPrice": "Rs 10",
+         "Ratings": 4.6,
+         "Genre": "Fantasy",
+         "PublishedYear": 1998,
+         "QuantityAvailable": 5
+     }
+
+ ]
